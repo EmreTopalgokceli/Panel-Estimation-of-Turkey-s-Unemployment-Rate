@@ -86,7 +86,7 @@ hausman fe re, sigmamore
 xtreg empl gdppc illiterate high_school uni en_inten new_busi pop_inten hh_size_ave gender_ratio inf hours_worked planted_farms fallow_farms herbal_prod_pc alive_animal_pc animal_prod_pc, fe
 estimate store fa
 
-* Random Effects - unemployment
+* Random Effects - employment
 xtreg empl gdppc illiterate high_school uni en_inten new_busi pop_inten hh_size_ave gender_ratio inf hours_worked planted_farms fallow_farms herbal_prod_pc alive_animal_pc animal_prod_pc, ra
 estimate store ra
 
